@@ -29,7 +29,7 @@ class ProductSeeder extends Seeder
     $product1->subCategories()->attach([10]);
 
     $product2 = Product::create([
-        'name' => "HOODED SWEATSHIRT",
+        'name' => "SWEATSHIRT",
         'description' => 'Red - Contrast is a key feature on our Unisex Fitted Zip Hoodie with its white zipper and drawcord. We use premium ring-spun cotton to achieve a smooth and stable fabric surface for printing. ',
         'price' => rand(100,600),
         'size' =>  Arr::random($size),
@@ -40,7 +40,7 @@ class ProductSeeder extends Seeder
     $product2->subCategories()->attach([12]);
 
     $product3 = Product::create([
-        'name' => "HOODED SWEATSHIRT",
+        'name' => "Shoes",
         'description' => 'Brown - The shoe itself has received the American Podiatric Medical Association (APMA) Seal of Acceptance, which podiatrists recognize to be a superior promotion for good foot health.',
         'price' => rand(100,600),
         'size' =>  Arr::random($size),
@@ -66,7 +66,7 @@ class ProductSeeder extends Seeder
         'description' => 'White - Kids Graphic Tee (Toddler, Little Boy & Big Boy)',
         'price' => rand(100,600),
         'size' =>  Arr::random($size),
-        'image' => 'seed/16.jpeg',
+        'image' => 'seed/16.jpg',
         'policy' => '',
         'category_id' => '3',
     ]);
@@ -77,7 +77,7 @@ class ProductSeeder extends Seeder
         'description' => 'Blue - Kids Cotton Sweatshirt',
         'price' => rand(100,600),
         'size' =>  Arr::random($size),
-        'image' => 'seed/16.jpeg',
+        'image' => 'seed/17.jpg',
         'policy' => '',
         'category_id' => '3',
     ]);
