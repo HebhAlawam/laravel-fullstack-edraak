@@ -66,7 +66,7 @@ class ProductSeeder extends Seeder
         'description' => 'White - Kids Graphic Tee (Toddler, Little Boy & Big Boy)',
         'price' => rand(100,600),
         'size' =>  Arr::random($size),
-        'image' => 'seed/16.jpg',
+        'image' => 'seed/14.jpg',
         'policy' => '',
         'category_id' => '3',
     ]);
@@ -77,7 +77,7 @@ class ProductSeeder extends Seeder
         'description' => 'Blue - Kids Cotton Sweatshirt',
         'price' => rand(100,600),
         'size' =>  Arr::random($size),
-        'image' => 'seed/17.jpg',
+        'image' => 'seed/12.jpg',
         'policy' => '',
         'category_id' => '3',
     ]);
