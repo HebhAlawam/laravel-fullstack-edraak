@@ -9,13 +9,13 @@
   </title>
 
     <!-- Styles  -->
-        <link href="{{ asset('frontednd/css/style.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('frontednd/css/style.css') }}" rel="stylesheet">
 
         <!-- bootstrap -->
-        <link href="{{ asset('frontednd/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('frontednd/css/bootstrap.min.css') }}" rel="stylesheet">
         <!-- Styles owl.carousel -->
-        <link href="{{ asset('frontednd/css/owl.carousel.min.css') }}" rel="stylesheet">
-        <link href="{{ asset('frontednd/css/owl.theme.default.min.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('frontednd/css/owl.carousel.min.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('frontednd/css/owl.theme.default.min.css') }}" rel="stylesheet">
         <!-- google font-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700">
         <!--  Font Awesome -->
